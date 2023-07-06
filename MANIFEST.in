@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include midline *.css
+recursive-include midline *.csv
+recursive-include midline *.html
+recursive-include midline *.ico
+recursive-include midline *.js
+recursive-include midline *.json
+recursive-include midline *.md
+recursive-include midline *.png
+recursive-include midline *.py
+recursive-include midline *.svg
+recursive-include midline *.txt
+recursive-exclude midline *.pyc
